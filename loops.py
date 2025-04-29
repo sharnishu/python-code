@@ -5,7 +5,7 @@
 
 # The for loop is the only loop available in Go.
 
-example:
+# example:
     
 # a = "this is"
 # for i in a:  
