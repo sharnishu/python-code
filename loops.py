@@ -1,4 +1,4 @@
-# difination:python loops help us for itteractions.ittrable obejects---->elements
+# DEFINATION : python loops help us for itteractions.ittrable obejects---->elements
 
 
 # The for loop loops through a block of code a specified number of times.
@@ -45,22 +45,22 @@
 #           end:n-1
 #           increment:1
 
-example:
-for i in range(1,11,1):
-  print(i)
+# example:
+# for i in range(1,11,1):
+#   print(i)
   
-output:
+# output:
   
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 8
+# 9
+# 10
 
 # example:
 # for i in range(6):
@@ -96,27 +96,27 @@ output:
 
 # The continue statement is used to skip one or more iterations in the loop. It then continues with the next iteration in the loop.
 
-for i in range(1,11):
-   if i == 8:
-     continue
-   print(i)
+# for i in range(1,11):
+#    if i == 8:
+#      continue
+#    print(i)
    
    
-output:
-1
-2
-3
-4
-5
-6
-7
-9
-10
+# output:
+# 1
+# 2
+# 3
+# 4
+# 5
+# 6
+# 7
+# 9
+# 10
 
-for i in range(1,111):
-  if i==50:
-    continue
-  print(i)
+# for i in range(1,111):
+#   if i==50:
+#     continue
+#   print(i)
                           
                           
                           
@@ -124,14 +124,14 @@ for i in range(1,111):
 
 # The break statement is used to break/terminate the loop execution.
 
-for i in range(1,11):
-  if i==5:
-    break
-  print(i)
+# for i in range(1,11):
+#   if i==5:
+#     break
+#   print(i)
   
-output:
-1
-2
-3
-4
+# output:
+# 1
+# 2
+# 3
+# 4
   
