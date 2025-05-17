@@ -26,5 +26,98 @@ func main() {
   }
 } -->
 
+
+
+nested if else :-A nested if-else is a conditional statement in programming where an if or else statement is placed inside another if or else block. It allows you to make a decision based on multiple conditions in a hierarchical manner.
+
+
+
+
+1.number = 10
+
+if number > 0:
+    print("Number positive hai.")
+    if number % 2 == 0:
+        print("Aur ye even number hai.")
+    else:
+        print("Aur ye odd number hai.")
+else:
+    print("Number negative ya zero hai.")
+
+
+2.marks = 75
+
+if marks >= 33:
+    print("Student pass ho gaya.")
+    if marks >= 75:
+        print("Grade: A")
+    elif marks >= 60:
+        print("Grade: B")
+    else:
+        print("Grade: C")
+else:
+    print("Student fail ho gaya.")
+
+
+3.marks = 85
+income = 180000
+
+if marks >= 80:
+    print("Student eligible hai scholarship ke liye.")
+    if income < 200000:
+        print("Full scholarship milegi.")
+    else:
+        print("Partial scholarship milegi.")
+else:
+    print("Student scholarship ke liye eligible nahi hai.")
+
+4. if age >= 18:
+  if age ==18:
+    print("Adult hai.")
+  else:
+    print("not eligible")
+elif age==19:
+  print("teen hai")
+else:
+    print("Teen hai.")
+
+5.if age ==20:
+  if age ==18:
+    print("Adult hai.")
+  else:
+    print("not eligible")
+elif age==19:
+  print("teen hai")
+else:
+    print("Teen hai.")
+
+6. if age==18:
+  if age <18:
+    print("eligible for vote")
+  else:
+    print("not eligible")
+elif age==19:
+  print("teen hai")
+else:
+    print("Teen hai.")
+7.if age==17:
+  if age <18:
+    print("eligible for vote")
+  else:
+    print("not eligible")
+elif age==19:
+  print("teen hai")
+else:
+    print("Teen hai.")
+
+8.age=int(input("enter your age"))
+if age==18:
+  if age <18:
+    print("eligible for vote")
+  else:
+    print("not eligible")
+elif age==19:
+  print("teen hai")
+
 <!-- output:  Num is more than 10. -->
 <!-- Num is also more than 15. -->
